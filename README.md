@@ -55,8 +55,7 @@ Doctors stay in "Pending" status until Manager approval; Farmers become "Active"
 
 ## 🗄️ Database Schema:
 
-Full script: Docs/script.sql
-
+Full script: [Docs/script.sql](Docs/script.sql)
 - Users: Every account UserID, Name, Gmail, Password, Role, Status.
 - DoctorProfile: Doctor-specific info: specialization, experience, fees, ratings.
 - ServiceRequests: A Farmer's request: animal, problem, service type, amount, status.
