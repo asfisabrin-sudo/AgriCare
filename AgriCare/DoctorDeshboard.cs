@@ -1,4 +1,5 @@
-﻿using System;
+﻿// This dashboard shows a doctor their assigned problems and allows marking them complete or transferring
+using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;

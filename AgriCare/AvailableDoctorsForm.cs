@@ -1,4 +1,5 @@
-﻿using System;
+// This form loads and displays the list of doctors who are currently marked as available in the database
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +9,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace AgriCare
 {
     public partial class AvailableDoctorsForm : Form

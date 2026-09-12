@@ -1,4 +1,5 @@
-﻿using System;
+﻿// This form lets a farmer browse and select a doctor along with the applicable fee before submitting a request
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
