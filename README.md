@@ -234,9 +234,6 @@ This query groups service requests by DoctorID and counts how many completed req
 Claude AI was used to debug a runtime NullReferenceException that blocked Login/Register (root cause: the SQL connection string was not resolving correctly), to help generate the SQL export steps. All application logic, UI design, and SQL schema were written by the team.
 
 ## 🎥 Demo Video
-
-## 🎥 Demo Video
-
 [Watch the demo here](https://youtu.be/0BGQvTIXIwE)
 **Timestamps:**
 - 0:00 - Intro
@@ -271,8 +268,6 @@ From an OOP perspective, I applied encapsulation by keeping form-level fields (s
 My overall contribution to the project is 25%, focused entirely on the Doctor module described above.
 
 ## 📂 Repository Structure:
-
-```
 AgriCare/
 │
 ├── AgriCare/
@@ -280,22 +275,26 @@ AgriCare/
 │   ├── *.Designer.cs
 │   ├── *.resx
 │   ├── App.config
+│   ├── Properties/
+│   ├── Resources/
 │   └── ...
 │
 ├── Docs/
 │   ├── script.sql
-│   ├── Project_Report.pdf
-│   ├── Diagrams/
-│   │   ├── ERD.png
-│   │   └── ...
-│   └── Screenshots/
-│       ├── Login.png
-│       ├── Dashboard.png
-│       └── ...
+│   └── AgriCare_Project_Report.pdf
+│
+├── ScreenShots/
+│   ├── Login_Dashboard.png
+│   ├── Farmar_Dashboard.png
+│   ├── Doctor_Dashboard.png
+│   ├── Manager_View_Dashboard.png
+│   └── ... (17 screenshots covering Login, Register, Report, Doctor selection, Payment, Approval, Ratings, etc.)
+│
+├── sql sceme.png        # ER / database schema diagram
+├── ui.png                # UI navigation diagram
+├── use case.png          # Use case diagram
 │
 ├── AgriCare.sln
-│
 ├── README.md
-│
+├── .gitattributes
 └── .gitignore
-```
