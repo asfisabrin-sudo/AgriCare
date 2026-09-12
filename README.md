@@ -118,12 +118,12 @@ This query groups service requests by DoctorID and counts how many completed req
 
 Claude AI was used to debug a runtime NullReferenceException that blocked Login/Register (root cause: the SQL connection string was not resolving correctly), to help generate the SQL export steps. All application logic, UI design, and SQL schema were written by the team.
 
-## 🧑‍🤝‍🧑 Team:
+## 🧑‍🤝‍🧑 Team & Contributions:
 
-- Lutfur Rahman [24-57054-1]
-- Md. Jubair Hasan Tamim [23-51855-2]
-- Asfi Sabrin Neha [24-56321-1]
-- Md Julfiker Ahmad Rafi [23-52116-2]
+- Lutfur Rahman [24-57054-1],Manager Module (Doctor approval, fee setting, user management, payment records) | 25% |
+- Md. Jubair Hasan Tamim [23-51855-2],Farmer Module (Problem reporting, Doctor selection, service booking, payment) | 25% |
+- Asfi Sabrin Neha [24-56321-1],Doctor Module (Doctor dashboard, rating, fee form, doctor selection, availability) | 25% |
+- Md Julfiker Ahmad Rafi [23-52116-2],Login/Register + Database (Authentication, database design, connection setup) | 25% |
 
 ## 📂 Repository Structure:
 
