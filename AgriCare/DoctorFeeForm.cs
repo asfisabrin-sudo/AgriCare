@@ -1,4 +1,4 @@
-﻿using System;
+﻿// This form sets the online advice fee and farm visit fee for a newly approved doctorusing System;
 using System.Drawing;
 using System.Windows.Forms;
 
