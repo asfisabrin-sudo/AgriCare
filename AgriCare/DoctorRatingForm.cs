@@ -1,4 +1,4 @@
-﻿using System;
+﻿// This form allows a farmer to submit a rating and review for the doctor who handled their requestusing System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
