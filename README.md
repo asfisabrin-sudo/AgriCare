@@ -85,6 +85,26 @@ string connectionString = @"Data Source=<YOUR_PC_NAME>\SQLEXPRESS;Initial Catalo
 💡 To find your SQL Server instance name: open SSMS → the name shown at connection time (e.g. YOURPC\SQLEXPRESS), or run sqlcmd -L in Command Prompt.
 
 - Build & Run: Build → Rebuild Solution, then F5.
+  
+## 🔍 Sample Queries
+
+### JOIN Query
+```sql
+SELECT u.Name, u.Gmail, d.Specialization, d.OnlineAdviceFee, d.FarmVisitFee, d.Rating
+FROM Users u
+JOIN DoctorProfile d ON u.UserID = d.DoctorID
+WHERE u.Role = 'Doctor';
+```
+This query joins the Users table with the DoctorProfile table using DoctorID, combining a doctor's name, email, specialization, fees, and rating into a single result.
+
+### GROUP BY Query
+```sql
+SELECT DoctorID, COUNT(RequestID) AS TotalCompletedRequests
+FROM ServiceRequests
+WHERE RequestStatus = 'Completed'
+GROUP BY DoctorID;
+```
+This query groups service requests by DoctorID and counts how many completed requests each doctor has handled.
 
 ## 🔑 Test Credentials:
 
