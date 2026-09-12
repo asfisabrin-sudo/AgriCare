@@ -1,4 +1,5 @@
-// This form loads and displays the list of doctors who are currently marked as available in the database﻿using System;
+// This form loads and displays the list of doctors who are currently marked as available in the database
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
