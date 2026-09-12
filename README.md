@@ -235,7 +235,23 @@ Claude AI was used to debug a runtime NullReferenceException that blocked Login/
 
 ## 🎥 Demo Video
 
-[Watch the demo here](YOUR_YOUTUBE_LINK)
+## 🎥 Demo Video
+
+[Watch the demo here](https://youtu.be/0BGQvTIXIwE)
+**Timestamps:**
+- 0:00 - Intro
+- 0:29 - Manager Login
+- 0:41 - Doctor Approval & Fee Setting
+- 1:40 - User Management (Manager)
+- 2:08 - Switch to Farmer Side
+- 2:14 - Farmer Registration/Login
+- 3:29 - Report Animal Problem
+- 4:37 - Doctor Selection (3 Filters + Search)
+- 4:51 - Service Selection, Payment & Request Tracking
+- 5:11 - Doctor Login, Dashboard, Completion, Transfer, Profile
+- 6:43 - Farmer Revisit — Doctor Rating
+- 8:16 - Manager Revisit — Reports & Data Isolation
+- 9:59 - Closing
 
 ## 🧑‍🤝‍🧑 Team & Contributions:
 
@@ -243,6 +259,16 @@ Claude AI was used to debug a runtime NullReferenceException that blocked Login/
 - Md. Jubair Hasan Tamim [23-51855-2],Farmer Module (Problem reporting, Doctor selection, service booking, payment)
 - Asfi Sabrin Neha [24-56321-1],Doctor Module (Doctor dashboard, rating, fee form, doctor selection, availability)
 - Md Julfiker Ahmad Rafi [23-52116-2],Login/Register + Database (Authentication, database design, connection setup)
+
+## 📌 My Individual Contribution (Asfi Sabrin Neha)
+
+As part of the AgriCare project, I was responsible for developing the complete Doctor-side module of the application. This included building the DoctorDeshboard.cs, which displays all animal health problems assigned to a Doctor, retrieved from the database using a parameterized SQL query filtered by DoctorID and problem status. I implemented the "Complete Service" functionality using a SQL transaction that simultaneously updates the AnimalProblems and ServiceRequests tables, ensuring data consistency if either update fails.
+
+I also developed the DoctorSelectionForm.cs, which allows Farmers to browse and filter available Doctors using specialization, experience, and rating criteria, using a LEFT JOIN between the Users and DoctorProfile tables. Additionally, I built the DoctorRatingForm.cs for Farmers to rate Doctors after service completion, and the DoctorFeeForm.cs used by Managers to set Doctor consultation fees.
+
+From an OOP perspective, I applied encapsulation by keeping form-level fields (such as doctorId and connectionString) private within each class, and used constructor-based dependency injection to pass Farmer and Doctor context between forms (e.g., passing farmerID and problem details from DoctorSelectionForm into PaymentForm). I also used exception handling and SQL transactions to maintain data integrity during multi-table updates.
+
+My overall contribution to the project is 25%, focused entirely on the Doctor module described above.
 
 ## 📂 Repository Structure:
 
